@@ -11,8 +11,15 @@
 9.  Usually at this point, we'll push the changes to the remote repository and that is straight forward, so let's skip that.  In most real life scenarious before we try to push to the base branch, it would've advanced forward, so let's try to recreate the scenario now.
 10.  Switch to `directory2`, that we cloned in step1.  Let's switch to `release` branch.  Now let's merge the changes of `feature2` to `release` branch, but instead of using `git merge`, let's `cherry-pick` the commits one by one from `feature2`.  First pick the commit with message "feature 2 - commit 1", for the second commit with commit message "feature 2 - commit 2" use the `-n` option of cherry-pick to fix the issue in line 5 of contents.txt in `feature2`.  Once you are done experimenting with `cherry-pick` to merge the changes, push the release branch to remote.
 11.  Let's go back to `directory1`.  Now the case is, we have some changes in release branch of `directory1`, but there are some new changes in the remote release branch that we just pushed from `directory2`.
-12.  Our objective here is to merge the local release branch and remote release branch without losing any contents - please experiment with just git pull, git pull with rebase, git fetch and git merge, and for each type, check the `git log` to check the order of commits.  You will get merge conflict while merging it, resolve it.
+12.  Our objective here is to merge the local release branch and remote release branch without losing any contents - please experiment with just git pull, git pull with rebase, git fetch and git merge, and for each type, check the `git log` to check the order of commits.  You will get merge conflict while merging it, resolve and push it.
 
 
 ### Note
 Except for step 10, all the other steps are done from `directory1`.
+
+
+### Other things to try out
+1. Different ways to reset local changes
+2. Renaming branch
+3. Check remote tracking branch
+4. `git stash`
