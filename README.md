@@ -1,4 +1,4 @@
-### Git Refresh exercise
+# Git Refresh exercise
 
 1.  Please fork this repository and clone it in two places in order to simulate multiple people working on the same repository - let's call the two places as `directory1` and `directory2`.
 2.  From `directory1`, please try swithcing to different branches available from cmd line and try to figure out which branch is the latest one based on number of commits and other information
