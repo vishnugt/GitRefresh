@@ -23,3 +23,8 @@ Except for step 10, all the other steps are done from `directory1`.
 2. Renaming branch
 3. Check remote tracking branch
 4. `git stash`
+
+### Resource
+1. https://docs.github.com/en/github/getting-started-with-github/using-git
+2. https://missing.csail.mit.edu/2020/version-control/
+3. For visualizing git branch - https://learngitbranching.js.org/
